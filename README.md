@@ -185,8 +185,9 @@ export LSFG_DLL_PATH="$HOME/.var/app/com.valvesoftware.Steam/.steam/debian-insta
 export ENABLE_LSFG=$FRAME_GEN
 export LSFG_MULTIPLIER=2
 export LSFG_LOG_FILE=lsfg.log
-```
+
 
 # --- Launch the game ---
 ./FPSTest.sh -statfile`
 
+```
