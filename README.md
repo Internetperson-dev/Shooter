@@ -6,7 +6,8 @@ Run the game with ./run.sh
 
 ## run.sh
 
-`#!/bin/bash
+```
+#!/bin/bash
 #export LSFG_DLL_PATH="$HOME/.var/app/com.valvesoftware.Steam/.steam/debian-installation/steamapps/common/Lossless Scaling/Lossless.dll"
 #export ENABLE_LSFG=0
 #export LSFG_MULTIPLIER=2
@@ -24,10 +25,12 @@ Run the game with ./run.sh
 #./FPSTest.sh -ExecCmds="r.Shadow.Virtual.Enable 1; r.Shadow.CSM.MaxCascades 1; r.Shadow.MaxResolution 512; r.ShadowQuality 0; r.VolumetricCloud.MaxSamples 16; r.VolumetricCloud.ShadowQuality 0; r.VolumetricCloud.EnableShadows 0; r.VolumetricCloud.LODFactor 4; r.Lumen.Reflections 0; r.Lumen.GlobalIllumination 0; r.Lumen.DiffuseIndirect 0; r.RayTracing.Reflections 0" -statfile
 
 ./launcher.sh
+```
 
 ## launcher.sh
 
-`#!/bin/bash
+```
+#!/bin/bash
 
 CONFIG_DIR="./FPSTest/Saved/Config/Linux"
 ENGINE_INI="$CONFIG_DIR/Engine.ini"
@@ -182,6 +185,7 @@ export LSFG_DLL_PATH="$HOME/.var/app/com.valvesoftware.Steam/.steam/debian-insta
 export ENABLE_LSFG=$FRAME_GEN
 export LSFG_MULTIPLIER=2
 export LSFG_LOG_FILE=lsfg.log
+```
 
 # --- Launch the game ---
 ./FPSTest.sh -statfile`
